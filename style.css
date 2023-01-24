@@ -1,0 +1,86 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(211, 200, 51);
+}
+.navlogo{
+    padding: left 30px;
+    width : 30%;
+}
+.navtitle{
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.slideshow{
+    padding-bottom: 30px;
+    width : 10%;
+}
+.imgabout{
+    padding: 10px ;
+    width: 100% ;
+    height: 85% ;
+}
+
+.aboutdesc{
+    font-size:18px ;
+    padding :1rem 3rem;
+}
+ 
+
+.counting{
+    width : 100%;
+    padding:2rem 5%;
+    margin: 1rem 0;
+    min-height: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-aligen:center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap:3rem;
+    background:-webkit-linear-gradient(rgba(0,0,0,0.4),rgba(0, 0, 0, 0.521),url("img/lb.jpg")); 
+}
+.footer{
+    background-color: brown;
+    padding: 2rem 5%;
+    color:bisque;
+
+}
+.footer ul {
+    list-style: none ;
+}
+
+
+.footer a{
+    text-decoration: none;
+    color:blanchedalmond
+}
+
+
+.jdsub{
+    text-align:center ;
+    text-shadow: 1px 1px #ccc;
+}
+
+.img-menu{
+    height: 230px;
+    overflow: hidden;
+}
+
+.img-menu img{
+    transition: transform.55 ease;
+}
+
+.img-menu:hover img{
+    transform:scale(1,5);
+}
